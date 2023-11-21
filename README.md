@@ -9,7 +9,7 @@
     - `openadj.csv`/`closeadj.csv`: the open/close price adjusted for corporate actions
     - `adv.csv`: average daily volume in dollars 
     - `market_cap.csv`: total market value in million dollars
-    - **sectors.csv`: the sector classification of the instruments in this universe
+    - `sectors.csv`: the sector classification of the instruments in this universe
     - if the market cap is null for a stock for one day, the stock is out of the universe
 - **Other predictors**: these have different update frequencies. Assume these predictors are available on their given date when markets open. 
     - `technical_indicator.csv`: derived from market data
