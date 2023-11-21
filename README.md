@@ -1,8 +1,4 @@
 # modeling-stock-returns
-project processing market and financial data, and modeling stock returns
-
-
-# Introduction
 
 - **This is a recent project that demonstrates my technical and quantitative research skills.**
 - In this notebook I process market and finacial data, and model stock returns.
