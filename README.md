@@ -47,7 +47,6 @@ $$\text{stock $i$'s sector volatility} \approx w_i * \text{stock $i$'s volatilit
 - Let $\text{cv}_{j,t}$ be the conditional volatility of sector $j$ on day $t$ estimated by fitting the GARCH(1,1) model
 - Define stock $i$'s adjusted returns on day $t$ as 
 $$r^{\text{adj}}_ {i,t} = \frac{r_{i,t}}{\text{cv}_{s(i, t),t}}$$
-
 - Then
 $$\text{Var}\,r^{\text{adj}}_{i,t} \approx \frac{1}{w_i ^ 2}$$
 - Estimate the squared weights $w_i^2$ using the sample variances of the adjusted returns.
