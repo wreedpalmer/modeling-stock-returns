@@ -28,7 +28,7 @@
    - avoid SIZE exposure
    - avoid look-ahead bias.
    - don't want to be good at predicting small stocks and very bad at predicting large ones (small stocks are much more expensive to trade)
-- **Conclusion:** summary of work and potential future ideas
+- **Conclusion:** summary of work and future ideas
 
 ## Modeling volatility in the daily log returns
 - *Here is a description of the volatility model I use in this project. Please see `model_volatility.ipynb` for the development of this model and its application to the data.*
