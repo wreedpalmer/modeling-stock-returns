@@ -1,12 +1,12 @@
 # modeling-stock-returns
 
 - **This is a recent project that demonstrates my technical and quantitative research skills.**
-- In this notebook I process market and finacial data, and model stock returns.
+- In the Jupyter Notebook model_volatility.ipynb I process market and finacial data, and model stock returns.
 
 ## Data description
 
 - **Market data**: assume the market data is available each day after the markets close. 
-    - **openadj/closeadj**: the open/close price adjusted for corporate actions
+    - **`openadj`/closeadj**: the open/close price adjusted for corporate actions
     - **adv**: average daily volume in dollars 
     - **market_cap**: total market value in million dollars
     - **sectors**: the sector classification of the instruments in this universe
