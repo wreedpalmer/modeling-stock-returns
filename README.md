@@ -20,7 +20,7 @@
          
          
 ## Project Outline
-- *All the work for this project is contained in `model_volatility.ipynb`.*
+- *Note: all my work for this project is contained in `model_volatility.ipynb`*
 - **Process the data:** identify potential data issues and clean the data accordingly 
 - **Explore the data:** look at the overall distribution and time-series dynamics of the data
 - **Design a prediction model:** try to predict future stock returns based on all information available in the data, while prioritizing the following: 
