@@ -27,4 +27,4 @@
    - avoid SIZE exposure
    - avoid look-ahead bias.
    - don't want to be good at predicting small stocks and very bad at predicting large ones (small stocks are much more expensive to trade)
-- **Conclusion:** Summary of work and potential future ideas.
+- **Conclusion:** summary of work and potential future ideas
