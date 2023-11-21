@@ -1,7 +1,7 @@
 # modeling-stock-returns
 
 - **This is a recent project that demonstrates my technical and quantitative research skills.**
-- In the Jupyter Notebook `model_volatility.ipynb` I process market and finacial data, and model stock returns.
+- The Jupyter Notebook `model_volatility.ipynb` processes market and finacial data, and models stock returns.
 
 ## Data description
 
