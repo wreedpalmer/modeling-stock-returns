@@ -6,15 +6,15 @@
 ## Data description
 
 - **Market data**: assume the market data is available each day after the markets close. 
-    - **`openadj.csv`/`closeadj.csv`**: the open/close price adjusted for corporate actions
-    - **adv**: average daily volume in dollars 
-    - **market_cap**: total market value in million dollars
-    - **sectors**: the sector classification of the instruments in this universe
+    - `openadj.csv`/`closeadj.csv`: the open/close price adjusted for corporate actions
+    - 'adv.csv`: average daily volume in dollars 
+    - `market_cap.csv`: total market value in million dollars
+    - **sectors.csv`: the sector classification of the instruments in this universe
     - if the market cap is null for a stock for one day, the stock is out of the universe
 - **Other predictors**: these have different update frequencies. Assume these predictors are available on their given date when markets open. 
-    - **technical_indicator**: derived from market data
-    - **holding_indicator**: the total value in dollars held by a group of institutional investors
-    - **financial_indicator** 2 accounting statement items: net income and sales in million dollars 
+    - `technical_indicator.csv`: derived from market data
+    - `holding_indicator.csv`: the total value in dollars held by a group of institutional investors
+    - `financial_indicator.csv` 2 accounting statement items: net income and sales in million dollars 
          - net income is cumulative over the course of the fiscal year (i.e. Q3 amount is given as Q1 + Q2 + Q3)
          - the sales figure is non-cumulative
          
