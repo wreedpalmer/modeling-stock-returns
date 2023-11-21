@@ -30,7 +30,7 @@
 - **Conclusion:** summary of work and potential future ideas
 
 ## Modeling volatility in the daily log returns
-- *Here is a description of the volatility model I use in this project. Please see `model_volatility.ipynb` for the development of this model and its application to the data*
+- *Here is a description of the volatility model I use in this project. Please see `model_volatility.ipynb` for the development of this model and its application to the data.*
 - As the volatility patterns of aggregated sector returns mirrors some of the volatility patterns of the overall aggregated returns, I believe the volatility patterns of the returns of individuals stocks may mirror the volatility patterns of their sectors
 - This motivates my approach for modeling individual stock volatility. In particular I create a model based on the assumption that a given stock return's volatility is proportional to the volatility of the aggregated return across its sector.
 - Let $r_{i,t}$ be the daily log return of stock $i$ on day $t$.
